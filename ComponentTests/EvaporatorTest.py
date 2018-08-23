@@ -29,7 +29,7 @@ FinsTubes.Air.RH=0.51
 FinsTubes.Air.FanPower=438
 
 Ref = 'R410A'
-Backend = 'TTSE&HEOS' #choose between: 'HEOS','TTSE&HEOS','BICUBIC&HEOS','REFPROP','SRK','PR'
+Backend = 'HEOS' #choose between: 'HEOS','TTSE&HEOS','BICUBIC&HEOS','REFPROP','SRK','PR'
 AS = CP.AbstractState(Backend, Ref)
 
 kwargs={'AS': AS,
