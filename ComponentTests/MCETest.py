@@ -33,7 +33,7 @@ FinsTubes.Air.RHmean=0.51
 FinsTubes.Air.FanPower=438
 
 Ref = 'R410A'
-Backend = 'TTSE&HEOS' #choose between: 'HEOS','TTSE&HEOS','BICUBIC&HEOS','REFPROP','SRK','PR'
+Backend = 'HEOS' #choose between: 'HEOS','TTSE&HEOS','BICUBIC&HEOS','REFPROP','SRK','PR'
 AS = CP.AbstractState(Backend, Ref)
 
 # This uses the normal baseline evaporator model
