@@ -130,6 +130,7 @@ params={
         'ID_o':0.045,
         'L':50,
         'pin_g':300000,
+        'Conductivity' : 237, #[W/m-K]
         'Verbosity':0
         }
 Cycle.CoaxialIHX.Update(**params)
