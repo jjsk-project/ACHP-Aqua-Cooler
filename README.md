@@ -10,9 +10,9 @@ The project involved converting thermal dynamic concepts into Python code. The p
 New features include:
 - Compressor variable speed drive
 - Hot gas bypass
-- New shell and tube heat exchanger
-- New coil in tank heat exchanger
-- New fin and tube heat exchanger
+- Shell and tube heat exchanger
+- Coil in tank heat exchanger
+- Fin and tube heat exchanger
 
 I also created a new software for the fin and tube heat exchanger on top of ACHP-Aqua-Cooler. 
 
